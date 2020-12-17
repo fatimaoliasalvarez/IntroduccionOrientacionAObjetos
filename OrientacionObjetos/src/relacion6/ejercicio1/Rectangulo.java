@@ -9,4 +9,22 @@ public class Rectangulo {
 		this.alto=altoInicial;
 		this.ancho=anchoInicial;
 	}
+
+	public double getAncho() {
+		return ancho;
+	}
+
+	public void setAncho(double ancho) {
+		this.ancho = ancho;
+	}
+
+	public double getAlto() {
+		return alto;
+	}
+
+	public void setAlto(double alto) {
+		this.alto = alto;
+	}
+	
+	
 }
