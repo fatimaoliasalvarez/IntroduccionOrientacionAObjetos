@@ -4,4 +4,9 @@ public class Rectangulo {
 
 	private double ancho;
 	private double alto;
+	
+	public Rectangulo(double anchoInicial, double altoInicial) {
+		this.alto=altoInicial;
+		this.ancho=anchoInicial;
+	}
 }
